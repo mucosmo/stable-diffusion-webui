@@ -12,7 +12,7 @@ source .env
 #clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-export COMMANDLINE_ARGS="--deepdanbooru --no-half --data-dir $DATA_DIR --disable-nan-check --precision full --disable-safe-unpickle --xformers --api --listen"
+export COMMANDLINE_ARGS="--deepdanbooru --no-half --data-dir $DATA_DIR --disable-nan-check --precision full --disable-safe-unpickle --xformers --api --listen --port $APP_PORT"
 
 # python3 executable
 #python_cmd="python3"
